@@ -1,40 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Isabella Blasi by isabellablasi</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Isabella Blasi by isabellablasi</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/isabellablasi">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
+    <a id="forkme_banner" href="https://github.com/isabellablasi">View on GitHub</a>
+    <div class="shell">
 
-    <div class="wrapper">
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Isabella Blasi</h1>
+            <h2>Professional Portfolio</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-      <section>
-        <div id="title">
-          <h1>Isabella Blasi</h1>
-          <p>Professional Portfolio</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/isabellablasi">isabellablasi</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+      <div id="no-downloads">
+        <span class="inner">
+        </span>
+      </div>
 
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
         <h3>
 <a name="about-me" class="anchor" href="#about-me"><span class="octicon octicon-link"></span></a>About Me</h3>
 
@@ -49,7 +59,10 @@
 <h3>
 <a name="urban-planning-design-and-policy" class="anchor" href="#urban-planning-design-and-policy"><span class="octicon octicon-link"></span></a>Urban Planning, Design and Policy</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<h2>
+<a name="the-ellis-act-a-speculators-tool-in-a-gentrifying-san-francisco" class="anchor" href="#the-ellis-act-a-speculators-tool-in-a-gentrifying-san-francisco"><span class="octicon octicon-link"></span></a>The Ellis Act: A Speculator's Tool in a Gentrifying San Francisco</h2>
+
+<p>For my senior thesis I wanted to explore a relevant, I conducted an independent research project on the intersection of Ellis Act evictions and gentrification in San Francisco. Utilized ArcGIS to map the distribution of Ellis Act evictions and the rate of gentrification across San Francisco neighborhoods. Presented findings at the UCSD Urban Studies and Planning Program’s XXIII Urban Expo in the form of a research paper, poster and three-minute video.</p>
 
 <h3>
 <a name="immigration-research-and-policy" class="anchor" href="#immigration-research-and-policy"><span class="octicon octicon-link"></span></a>Immigration Research and Policy</h3>
@@ -67,8 +80,20 @@
 <p><a href="https://www.linkedin.com/pub/isabella-blasi/71/b13/78a">LinkedIn</a></p>
       </section>
 
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>Projects by <a href="https://github.com/isabellablasi">isabellablasi</a> can be found on <a href="https://github.com/isabellablasi">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
     
   </body>
 </html>
